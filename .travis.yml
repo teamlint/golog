@@ -5,7 +5,7 @@ os:
 go:
   - go1.8
 # - tip
-go_import_path: github.com/kataras/golog
+go_import_path: github.com/teamlint/golog
 install:
   - go get ./...
 script:

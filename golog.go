@@ -3,13 +3,13 @@ package golog
 import (
 	"io"
 
-	"github.com/kataras/pio"
+	"github.com/teamlint/pio"
 )
 
 // NewLine can override the default package-level line breaker, "\n".
 // It should be called (in-sync) before  the print or leveled functions.
 //
-// See `github.com/kataras/pio#NewLine` too.
+// See `github.com/teamlint/pio#NewLine` too.
 func NewLine(newLineChar string) {
 	pio.NewLine = []byte(newLineChar)
 }

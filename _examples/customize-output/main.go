@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/kataras/golog"
+	"github.com/teamlint/golog"
 )
 
 func main() {

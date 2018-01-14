@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kataras/pio"
+	"github.com/teamlint/pio"
 )
 
 // Handler is the signature type for logger's handler.

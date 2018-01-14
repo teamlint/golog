@@ -3,7 +3,7 @@ package benchmarks
 import (
 	"testing"
 
-	"github.com/kataras/golog"
+	"github.com/teamlint/golog"
 )
 
 var nopOutput = golog.NopOutput

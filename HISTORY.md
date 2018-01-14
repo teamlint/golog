@@ -39,7 +39,7 @@ Users are now able to add custom or modify existing levels with an easy to remem
 package main
 
 import (
-	"github.com/kataras/golog"
+	"github.com/teamlint/golog"
 )
 
 func main() {
@@ -82,7 +82,7 @@ Example can be found [here](_examples/customize-levels/new-level/main.go).
 ## Sa 29 July 2017 | v0.0.4 & v0.0.5
 
 ### v0.0.4
-- Fix an issue occurred by previous chnages, which [pio](https://github.com/kataras/pio) appends a trailing new line.
+- Fix an issue occurred by previous chnages, which [pio](https://github.com/teamlint/pio) appends a trailing new line.
 
 - Add a new method `golog#NewLine` which can override the default line breaker chars "\n".
 
@@ -98,7 +98,7 @@ Example Code:
 package main
 
 import (
-    "github.com/kataras/golog"
+    "github.com/teamlint/golog"
 )
 
 func main() {
@@ -130,9 +130,9 @@ func main() {
 }
 ```
 
-> This feature has been implemented after @carlca 's suggestion, [here](https://github.com/kataras/golog/issues/2).
+> This feature has been implemented after @carlca 's suggestion, [here](https://github.com/teamlint/golog/issues/2).
 
 
 ## Th 27 July 2017 | v0.0.3
 
-Increase the logger's performance by reducing the use of buffers on the [pio library](https://github.com/kataras/pio)
+Increase the logger's performance by reducing the use of buffers on the [pio library](https://github.com/teamlint/pio)

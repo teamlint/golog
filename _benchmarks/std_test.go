@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kataras/pio"
+	"github.com/teamlint/pio"
 )
 
 func BenchmarkStdPrint(b *testing.B) {

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/kataras/golog"
 	"github.com/sirupsen/logrus"
+	"github.com/teamlint/golog"
 )
 
 func main() {

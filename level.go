@@ -3,7 +3,7 @@ package golog
 import (
 	"strings"
 
-	"github.com/kataras/pio"
+	"github.com/teamlint/pio"
 )
 
 // Level is a number which defines the log level.
